@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title> list of names </title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <marquee onmouseover="this.stop()"onmouseleave="this.start()" >
+        <h1>List Of Names </h1> </marquee>  
+        <div>
+            <span>1</span>
+            <input type="text" placeholder="Name Of Student" id="Student_1">
+            <br>
+            <span>2</span>
+            <input type="text" placeholder="Name Of Student" id="Student_2">
+            <br>
+            <span>3</span>
+            <input type="text" placeholder="Name Of Student" id="Student_3">
+            <br>
+            <span>4</span>
+            <input type="text" placeholder="Name Of Student" id="Student_4">
+            <br>
+            
+        </div>
+        <button onclick="Submit()" id="sub">Submit</button>
+        <br>
+        <br>
+        <div id="names_with_commas"></div>
+        <hr>
+        <div id="names_without_commas"></div>
+        <br>
+        <button onclick="sorting()" id="sor">sorting</button>
+        <script src="main.js"></script>
+    </body>
+</html>

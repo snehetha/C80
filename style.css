@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(184, 109, 253);
+    text-align: center;
+}
+
+#sor{
+    display: none;
+}
+#sub{
+    margin-top: 25px;
+}
+#names_with_commas{
+    border: 1px solid rgb(10, 6, 211);
+     padding: 10px;
+      background-color: rgb(81, 229, 255);
+      border-radius: 10px;
+       width: 50%;
+}
+#names_without_commas{
+    border: 1px solid rgb(44, 18, 37);
+     padding: 10px;
+      background-color: rgb(180, 25, 180);
+      border-radius: 10px;
+       width: 50%;
+}
